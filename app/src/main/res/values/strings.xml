@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Trial</string>
+    <string name="welcome">Welcome!!!</string>
+    <string name="start">Start</string>
+    <string name="about">About</string>
+    <string name="direction">Direction</string>
+    <string name="about_info">Some info related to app....</string>
+    <string name="back">Back</string>
+    <string name="todo">TODO</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CameraActivity">
+
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:id="@+id/pencil"
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/pencil" />
+
+    <ImageButton
+        android:id="@+id/eraser"
+        android:layout_width="66dp"
+        android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="123dp"
+        android:layout_marginTop="13dp"
+        app:srcCompat="@drawable/eraser" />
+
+    <ImageButton
+        android:id="@+id/text"
+        android:layout_width="64dp"
+        android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="217dp"
+        android:layout_marginTop="13dp"
+        app:srcCompat="@drawable/text" />
+
+    <ImageButton
+        android:id="@+id/palette"
+        android:layout_width="66dp"
+        android:layout_height="62dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="313dp"
+        android:layout_marginTop="14dp"
+        app:srcCompat="@drawable/palette" />
+
+
+</RelativeLayout>
